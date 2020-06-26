@@ -1,26 +1,23 @@
-# Quasar App (my-quasar-app)
+# Débuter avec Quasar Framework
 
-A Quasar Framework app
+Ce dépôt est une annexe de mon article "Débuter avec Quasar Framework" publié en 2 parties sur Medium.com :
 
-## Install the dependencies
+* [Débuter avec Quasar Framework (1/2)](https://medium.com/codeshake/d%C3%A9buter-avec-quasar-framework-1-2-a80d24437ae8)
+* [Débuter avec Quasar Framework (2/2)]()
+
+Le contient une branche par exemple de code de l'article :
+* q-btn
+* q-table
+* q-carousel
+* q-uploader
+* q-infinite-scroll-q-pull-to-refresh
+
+## Installation des dépendances
 ```bash
-npm install
+npm i
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Exécution du projet
 ```bash
-quasar dev
+npx quasar dev
 ```
-
-### Lint the files
-```bash
-npm run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
