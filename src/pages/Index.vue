@@ -22,13 +22,12 @@ export default {
         }
     },
     created() {
-        this.blocks = [
-            ...this.getNewBlocks(0, this.nbItemsPerPage)
-        ];
+        this.blocks = this.getNewBlocks(0, this.nbItemsPerPage);
     },
     methods: {
         getNewBlocks(cursor, nb) {
             const newBlocks = [];
+
             for (let i = cursor + 1; i <= cursor + nb; i++) {
                 newBlocks.push({ id: i, message: `Line ${i}` });
             }
