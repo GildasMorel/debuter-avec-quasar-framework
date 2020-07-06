@@ -37,7 +37,7 @@ export default {
         },
         pullToRefresh(done) {
             setTimeout(() => {
-                this.blocks = this.blocks.splice(0, this.nbItemsPerPage);
+                this.blocks = this.blocks.slice(0, this.nbItemsPerPage);
                 done();
             }, 1500);
         },
